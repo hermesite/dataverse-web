@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="151px" height="64px" viewBox="0 0 151 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="LOGO" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Circular" transform="translate(-288.000000, -264.000000)">
+            <g id="Group-5" transform="translate(288.000000, 270.000000)">
+                <text id="DATA-Copy-3" font-family="HiraMinProN-W3, Hiragino Mincho ProN" font-size="36" font-weight="300" letter-spacing="-4" fill="#FFFFFF">
+                    <tspan x="58.068" y="33">DAT</tspan>
+                    <tspan x="119.364" y="33">A</tspan>
+                </text>
+                <text id="VERSE-Copy-3" font-family="HiraMinProN-W3, Hiragino Mincho ProN" font-size="36" font-weight="300" letter-spacing="-4" fill="#FFFFFF">
+                    <tspan x="52.144" y="58">VERS</tspan>
+                    <tspan x="130.068" y="58">E</tspan>
+                </text>
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="6" cx="25" cy="25" r="22"></circle>
+                <path d="M50,25.5555556 C50,11.4416119 38.5583881,0 24.4444444,0" id="Oval" stroke="#D0021B" stroke-width="12"></path>
+                <text id="360º-copy-2" font-family="Roboto-Medium, Roboto" font-size="9" font-weight="400" letter-spacing="-0.547500014" fill="#FFFFFF">
+                    <tspan x="16.3677051" y="28">360º</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

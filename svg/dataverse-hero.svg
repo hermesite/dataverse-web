@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="158px" height="158px" viewBox="0 0 158 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="LOGO" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Circular" transform="translate(-28.000000, -217.000000)">
+            <g id="Group-4" transform="translate(28.000000, 225.000000)">
+                <text id="WebVR" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="-0.400000006" fill="#FFFFFF">
+                    <tspan x="56.3878906" y="101">WebV</tspan>
+                    <tspan x="86.1238281" y="101">R</tspan>
+                </text>
+                <text id="Visualization" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="-0.400000006" fill="#FFFFFF">
+                    <tspan x="43.2007813" y="111">Visualizatio</tspan>
+                    <tspan x="101.125391" y="111">n</tspan>
+                </text>
+                <text id="Tool" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="-0.400000006" fill="#FFFFFF">
+                    <tspan x="64.7035156" y="121">Too</tspan>
+                    <tspan x="83.2320312" y="121">l</tspan>
+                </text>
+                <text id="DATA-Copy" font-family="HiraMinProN-W3, Hiragino Mincho ProN" font-size="36" font-weight="300" letter-spacing="-4" fill="#FFFFFF">
+                    <tspan x="31.068" y="61">DAT</tspan>
+                    <tspan x="92.364" y="61">A</tspan>
+                </text>
+                <text id="VERSE-Copy" font-family="HiraMinProN-W3, Hiragino Mincho ProN" font-size="36" font-weight="300" letter-spacing="-4" fill="#FFFFFF">
+                    <tspan x="25.144" y="86">VERS</tspan>
+                    <tspan x="103.068" y="86">E</tspan>
+                </text>
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="8" cx="75" cy="75" r="71"></circle>
+                <path d="M150,75 C150,33.5786438 116.421356,0 75,0" id="Oval" stroke="#F91100" stroke-width="16"></path>
+            </g>
+        </g>
+    </g>
+</svg>
