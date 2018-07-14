@@ -172,11 +172,11 @@ input:-webkit-autofill:focus {
 
 /*.overlay:before,*/
 .sky-bg {
-    background: #75cbe7;
-    background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2));
-    background: linear-gradient(to bottom, #75cbe7 0%, #138fc2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
-    
+    background: #482583;
+    background: -webkit-gradient(linear, left top, left bottom, from(#300030), to(#482583));
+    background: linear-gradient(to bottom, #300030 0%, #482583 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#724caf', endColorstr='#482583', GradientType=0);
+
     color: #ffffff;
 }
 
@@ -331,20 +331,20 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area #primary-menu > ul > li > a:before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    top: -10px;
-    width: 0;
-    height: 0;
-    border-right: 10px solid transparent;
-    border-left: 10px solid transparent;
-    border-top: 10px solid #ffffff;
-    opacity: 0;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
+    /*content: "";*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*-webkit-transform: translateX(-50%);*/
+    /*transform: translateX(-50%);*/
+    /*top: -10px;*/
+    /*width: 0;*/
+    /*height: 0;*/
+    /*border-right: 10px solid transparent;*/
+    /*border-left: 10px solid transparent;*/
+    /*border-top: 10px solid #ffffff;*/
+    /*opacity: 0;*/
+    /*-webkit-transition: 0.3s;*/
+    /*transition: 0.3s;*/
 }
 
 .mainmenu-area #primary-menu > ul > li > a:hover:before,
@@ -359,9 +359,22 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area.affix {
-    background-color: #138fc2;
+    /*background-color: #138fc2;*/
+    background-color: #482583;
+    height: 80px;
 }
 
+
+.nav > li {
+    position: relative;
+    display: block;
+    font-size: 20px;
+}
+
+
+.navbar-brand > img {
+    margin-top: -16px;
+}
 
 
 /**
@@ -370,7 +383,7 @@ input:-webkit-autofill:focus {
 
 .client-area,
 .header-area {
-    background: #000000 url('images/parallax-2.jpg') no-repeat scroll center center / cover;
+    background: #000000 url('images/dataverse/panorama_1_desat_light.jpeg') no-repeat scroll center center / cover;
 }
 
 .anlge-bg {
@@ -872,10 +885,10 @@ preloader
     left: 0;
     width: 100%;
     height: 100%;
-    background: #75cbe7;
-    background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2));
-    background: linear-gradient(to bottom, #75cbe7 0%, #138fc2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
+    background: #482583;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9970d8), to(#482583));
+    background: linear-gradient(to bottom, #9970d8 0%, #482583 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9970d8', endColorstr='#482583', GradientType=0);
     z-index: 99999999999;
 }
 
