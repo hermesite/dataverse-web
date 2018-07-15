@@ -278,6 +278,10 @@ p a:hover{
     color: #cccccc!important;
 }
 
+.gray-bg p a{
+    color: black!important;
+}
+
 
 /*.box:hover {*/
     /*-webkit-box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);*/
@@ -609,7 +613,7 @@ p a:hover{
 }
 
 .single-team h6 {
-    margin-bottom: 20px;
+    margin: 0 20px 20px 20px;
 }
 
 .single-team .social-menu {
@@ -621,10 +625,23 @@ p a:hover{
     width: 100%;
     padding: 23px 10px;
     background-color: #ffffff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 600;
+    color: #515656!important;
 }
 
 .single-team:hover .social-menu {
     bottom: 0;
+}
+
+
+.social-menu a{
+    color: #515656!important;
+}
+
+.social-menu a:hover{
+    color:#482583!important;
 }
 
 /***
