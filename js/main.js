@@ -1,6 +1,18 @@
 (function($) {
 
 
+     var generate_url = function(google_sheet){
+
+         if(true){
+             return DATAVERSE_WEB.entry_point + "?source=" + google_sheet;
+         }
+         else{
+             return -1;
+         }
+
+     };
+
+
 //    <!-- Features -->
 //    <section class="gray-bg section-padding" id="features-page">
 //    </section>
@@ -24,15 +36,52 @@
 //    <footer class="footer-area relative gray-bg" id="credits-page">
 //    </footer>
 
-
     $("#hero-page").load('sections/hero-page.html');
     $("#features-page").load('sections/features-page.html');
     $("#visualization-types-page").load('sections/visualization-types-page.html');
-    $("#generate-page").load('sections/generate-page.html');
-    $("#examples-page").load('sections/examples-page.html');
-    $("#documentation-page").load('sections/documentation-page.html');
-    $("#credits-page").load('sections/credits-page.html');
+    $("#generate-page").load('sections/generate-page.html', function(){
 
+        var reg_exp = new RegExp(/https:\/\/docs\.google\.com\/spreadsheets\/d\/.*?\//);
+
+        function check_sheet_url(value){
+
+
+            if(value.match(reg_exp)){
+                return true;
+            }
+            else {
+                return false;
+            }
+
+        }
+
+        $("#sheet_url").on("keyup", function(){
+
+            var value = $("#sheet_url").val();
+
+            if(check_sheet_url(value)){
+                $("#url_help").html("");
+
+                var final_url = generate_url(value);
+
+                if(final_url !== -1){
+                    $("#final_url").val(final_url);
+                    $("#final_url").removeAttr("disabled");
+                }
+
+            }
+            else {
+                $("#url_help").html("Please insert a valid Google Sheet address");
+                $("#final_url").val("");
+                $("#final_url").prop("disabled", true);
+            }
+
+        });
+
+    });
+    $("#examples-page").load('sections/examples-page.html');
+//    $("#documentation-page").load('sections/documentation-page.html');
+    $("#credits-page").load('sections/credits-page.html');
 
 
     /* Preloader Js
@@ -218,8 +267,6 @@
                     }
                 }
             });
-
-
 
 
 

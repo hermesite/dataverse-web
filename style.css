@@ -37,6 +37,10 @@ CSS INDEX
 2. Theme Default CSS
 --------------------*/
 
+.text-muted {
+    color: orange!important;
+}
+
 a {
     text-decoration: none;
     outline: none;
