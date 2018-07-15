@@ -1,11 +1,37 @@
 (function($) {
 
+
+//    <!-- Features -->
+//    <section class="gray-bg section-padding" id="features-page">
+//    </section>
+//
+//    <!-- Visualization types -->
+//    <section class="section-padding gray-bg" id="visualization-types-page">
+//    </section>
+//
+//    <section class="section-padding gray-bg" id="generate-page">
+//    </section>
+//
+//    <!-- Examples -->
+//    <section class="section-padding sky-bg" id="examples-page">
+//    </section>
+//
+//    <!-- FAQ -->
+//    <section class="sky-bg section-padding" id="documentation-page">
+//    </section>
+//
+//    <!-- Contact -->
+//    <footer class="footer-area relative gray-bg" id="credits-page">
+//    </footer>
+
+
     $("#hero-page").load('sections/hero-page.html');
-    $("#visualization-types-page").load('sections/visualization-types-page.html');
-    $("#examples-page").load('sections/examples-page.html');
     $("#features-page").load('sections/features-page.html');
-    $("#faq-page").load('sections/faq-page.html');
-    $("#contact-page").load('sections/contact-page.html');
+    $("#visualization-types-page").load('sections/visualization-types-page.html');
+    $("#generate-page").load('sections/generate-page.html');
+    $("#examples-page").load('sections/examples-page.html');
+    $("#documentation-page").load('sections/documentation-page.html');
+    $("#credits-page").load('sections/credits-page.html');
 
 
 

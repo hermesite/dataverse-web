@@ -173,8 +173,8 @@ input:-webkit-autofill:focus {
 /*.overlay:before,*/
 .sky-bg {
     background: #482583;
-    background: -webkit-gradient(linear, left top, left bottom, from(#300030), to(#482583));
-    background: linear-gradient(to bottom, #300030 0%, #482583 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#7040AA), to(#482583));
+    background: linear-gradient(to bottom, #7040AA 0%, #482583 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#724caf', endColorstr='#482583', GradientType=0);
 
     color: #ffffff;
@@ -227,12 +227,9 @@ input:-webkit-autofill:focus {
 .page-title h2 {
     text-transform: uppercase;
     position: relative;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
 }
 
 .page-title h2:after {
-    content: "\e675";
     font-family: 'themify';
     position: absolute;
     left: 50%;
@@ -258,16 +255,37 @@ input:-webkit-autofill:focus {
     border-radius: 5px;
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    height: 440px;
+}
+.box a{
+    color: #FFF!important;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 15px;
 }
 
-.box:hover {
-    -webkit-box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px)
+.box a:hover{
+    color: #cccccc!important;
 }
+
+p a{
+    color: #FFF!important;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+p a:hover{
+    color: #cccccc!important;
+}
+
+
+/*.box:hover {*/
+    /*-webkit-box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);*/
+    /*box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);*/
+    /*background-color: #ffffff;*/
+    /*-webkit-transform: translateY(-5px);*/
+    /*transform: translateY(-5px)*/
+/*}*/
 
 .box h4 {
     text-transform: uppercase;
@@ -299,7 +317,7 @@ input:-webkit-autofill:focus {
     left: 0;
     top: 0;
     width: 100%;
-    z-index: 9999999;
+    z-index: 8;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
@@ -368,7 +386,7 @@ input:-webkit-autofill:focus {
 .nav > li {
     position: relative;
     display: block;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
