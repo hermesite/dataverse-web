@@ -80,7 +80,7 @@
 
     });
     $("#examples-page").load('sections/examples-page.html');
-//    $("#documentation-page").load('sections/documentation-page.html');
+    $("#documentation-page").load('sections/documentation-page.html');
     $("#credits-page").load('sections/credits-page.html');
 
 
