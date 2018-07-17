@@ -33,6 +33,9 @@
 
 <body data-spy="scroll" data-target="#primary-menu">
 
+    <a href="https://github.com/you"><img style="position: fixed; top: 0; left: 0; border: 0;z-index:9" src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" alt="Fork me on GitHub"></a>
+    <!--<a href="https://github.com/you"><img style="position: fixed;top: 0;right: 0;border: 0;z-index: 9;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>-->
+
     <div class="preloader">
         <div class="sk-folding-cube">
             <div class="sk-cube1 sk-cube"></div>
@@ -52,20 +55,22 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="#" class="navbar-brand logo">
-                    <object type="image/svg+xml" data="svg/dataverse-navigation.svg" width="150">
-                        Dataverse
-                    </object>
+                    <img width="150" src="images/dataverse/dataverse-horizontal-negative2.png">
+                    <!--<object type="image/svg+xml" data="svg/dataverse-navigation.svg" width="150">-->
+                        <!--Dataverse-->
+                    <!--</object>-->
                 </a>
             </div>
             <!--Logo/-->
             <nav class="collapse navbar-collapse" id="primary-menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#hero-page">Home</a></li>
-                    <li><a href="#visualization-types-page">Visualization Types</a></li>
-                    <li><a href="#examples-page">Examples</a></li>
+                    <li class="active"><a href="#hero-page">About</a></li>
                     <li><a href="#features-page">Features</a></li>
-                    <li><a href="#faq-page">FAQ</a></li>
-                    <li><a href="#contact-page">Contact</a></li>
+                    <li><a href="#visualization-types-page">Visualization Types</a></li>
+                    <li><a href="#generate-page">Generate your Experience</a></li>
+                    <li><a href="#examples-page">Examples</a></li>
+                    <li><a href="#documentation-page">Documentation</a></li>
+                    <li><a href="#credits-page">Credits and Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -75,25 +80,28 @@
     <!--Hero-->
     <header class="header-area overlay full-height relative v-center" id="hero-page">
     </header>
-    
+
+    <!-- Features -->
+    <section class="sky-bg section-padding" id="features-page">
+    </section>
+
     <!-- Visualization types -->
     <section class="section-padding gray-bg" id="visualization-types-page">
     </section>
 
-    <!-- Examples -->
-    <section class="section-padding sky-bg" id="examples-page">
+    <section class="section-padding sky-bg" id="generate-page">
     </section>
 
-    <!-- Features -->
-    <section class="gray-bg section-padding" id="features-page">
+    <!-- Examples -->
+    <section class="section-padding gray-bg" id="examples-page">
     </section>
 
     <!-- FAQ -->
-    <section class="sky-bg section-padding" id="faq-page">
+    <section class="sky-bg section-padding" id="documentation-page">
     </section>
 
     <!-- Contact -->
-    <footer class="footer-area relative gray-bg" id="contact-page">
+    <footer class="footer-area relative gray-bg" id="credits-page">
     </footer>
 
     <!--Vendor-JS-->
@@ -107,7 +115,7 @@
     <script src="js/magnific-popup.min.js"></script>
     <script src="js/wow.min.js"></script>
     <!--Main-active-JS-->
-
+    <script src="js/constants.js"></script>
     <script src="js/main.js"></script>
 </body>
 

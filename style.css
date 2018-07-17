@@ -37,6 +37,10 @@ CSS INDEX
 2. Theme Default CSS
 --------------------*/
 
+.text-muted {
+    color: orange!important;
+}
+
 a {
     text-decoration: none;
     outline: none;
@@ -172,11 +176,11 @@ input:-webkit-autofill:focus {
 
 /*.overlay:before,*/
 .sky-bg {
-    background: #75cbe7;
-    background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2));
-    background: linear-gradient(to bottom, #75cbe7 0%, #138fc2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
-    
+    background: #482583;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7040AA), to(#482583));
+    background: linear-gradient(to bottom, #7040AA 0%, #482583 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#724caf', endColorstr='#482583', GradientType=0);
+
     color: #ffffff;
 }
 
@@ -227,12 +231,9 @@ input:-webkit-autofill:focus {
 .page-title h2 {
     text-transform: uppercase;
     position: relative;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
 }
 
 .page-title h2:after {
-    content: "\e675";
     font-family: 'themify';
     position: absolute;
     left: 50%;
@@ -258,16 +259,41 @@ input:-webkit-autofill:focus {
     border-radius: 5px;
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    height: 440px;
+}
+.box a{
+    color: #FFF!important;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 15px;
 }
 
-.box:hover {
-    -webkit-box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px)
+.box a:hover{
+    color: #cccccc!important;
 }
+
+p a{
+    color: #FFF!important;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+p a:hover{
+    color: #cccccc!important;
+}
+
+.gray-bg p a{
+    color: black!important;
+}
+
+
+/*.box:hover {*/
+    /*-webkit-box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);*/
+    /*box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);*/
+    /*background-color: #ffffff;*/
+    /*-webkit-transform: translateY(-5px);*/
+    /*transform: translateY(-5px)*/
+/*}*/
 
 .box h4 {
     text-transform: uppercase;
@@ -299,7 +325,7 @@ input:-webkit-autofill:focus {
     left: 0;
     top: 0;
     width: 100%;
-    z-index: 9999999;
+    z-index: 8;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
@@ -331,20 +357,20 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area #primary-menu > ul > li > a:before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    top: -10px;
-    width: 0;
-    height: 0;
-    border-right: 10px solid transparent;
-    border-left: 10px solid transparent;
-    border-top: 10px solid #ffffff;
-    opacity: 0;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
+    /*content: "";*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*-webkit-transform: translateX(-50%);*/
+    /*transform: translateX(-50%);*/
+    /*top: -10px;*/
+    /*width: 0;*/
+    /*height: 0;*/
+    /*border-right: 10px solid transparent;*/
+    /*border-left: 10px solid transparent;*/
+    /*border-top: 10px solid #ffffff;*/
+    /*opacity: 0;*/
+    /*-webkit-transition: 0.3s;*/
+    /*transition: 0.3s;*/
 }
 
 .mainmenu-area #primary-menu > ul > li > a:hover:before,
@@ -359,9 +385,22 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area.affix {
-    background-color: #138fc2;
+    /*background-color: #138fc2;*/
+    background-color: #482583;
+    /*height: 80px;*/
 }
 
+
+.nav > li {
+    position: relative;
+    display: block;
+    font-size: 15px;
+}
+
+
+.navbar-brand > img {
+    margin-top: -16px;
+}
 
 
 /**
@@ -370,7 +409,7 @@ input:-webkit-autofill:focus {
 
 .client-area,
 .header-area {
-    background: #000000 url('images/parallax-2.jpg') no-repeat scroll center center / cover;
+    background: #000000 url('images/dataverse/panorama_1_desat_light.jpeg') no-repeat scroll center center / cover;
 }
 
 .anlge-bg {
@@ -578,7 +617,7 @@ input:-webkit-autofill:focus {
 }
 
 .single-team h6 {
-    margin-bottom: 20px;
+    margin: 0 20px 20px 20px;
 }
 
 .single-team .social-menu {
@@ -590,10 +629,23 @@ input:-webkit-autofill:focus {
     width: 100%;
     padding: 23px 10px;
     background-color: #ffffff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 600;
+    color: #515656!important;
 }
 
 .single-team:hover .social-menu {
     bottom: 0;
+}
+
+
+.social-menu a{
+    color: #515656!important;
+}
+
+.social-menu a:hover{
+    color:#482583!important;
 }
 
 /***
@@ -872,10 +924,10 @@ preloader
     left: 0;
     width: 100%;
     height: 100%;
-    background: #75cbe7;
-    background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2));
-    background: linear-gradient(to bottom, #75cbe7 0%, #138fc2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
+    background: #482583;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9970d8), to(#482583));
+    background: linear-gradient(to bottom, #9970d8 0%, #482583 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9970d8', endColorstr='#482583', GradientType=0);
     z-index: 99999999999;
 }
 
